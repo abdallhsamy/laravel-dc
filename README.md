@@ -13,7 +13,7 @@ The most common commands you will need are:
 - `./dc t`: Run phpunit in the app container
 - `./dc yarn`: Run yarn
 - `./dc npm`: Run npm
-For most of the above commands any arguments you enter after the command will be passed to the original command, for example running ./dc artisan migrate would run php artisan migrate and ./dc test Modules/Core/Tests would run PHPUnit for the Core module.
+For most of the above commands any arguments you enter after the command will be passed to the original command, for example running `./dc artisan migrate` would run `php artisan migrate`.
 
 ```
 Tip! You can alias ./dc to dc
