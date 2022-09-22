@@ -8,7 +8,7 @@ The most common commands you will need are:
 - `./dc down`: Stop the containers
 - `./dc rs`: Restart the containers
 - `./dc composer`: Run composer in the container
-- `./dc artisan` or `./dc art` or .`/dc` a: Run the artisan command
+- `./dc artisan` or `./dc art` or .`/dc a`: Run the artisan command
 - `./dc test`: Run phpunit in a new container
 - `./dc t`: Run phpunit in the app container
 - `./dc yarn`: Run yarn
