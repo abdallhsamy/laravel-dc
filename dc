@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#Author : Abdallah Samy. >> https://github.com/abdallhsamy
+
 COMPOSE="./vendor/bin/sail"
 
 if [ $# -gt 0 ]; then
