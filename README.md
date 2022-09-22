@@ -23,3 +23,12 @@ Whenever you make a change to the `Dockerfile` files, you will have to rebuild t
 
 - `./dc build`
 - `./dc rs`
+
+
+# installation
+- download `dc` file and put it into your laravel project root using the following command
+```bash
+curl -o dc https://raw.githubusercontent.com/abdallhsamy/laravel-dc/main/dc
+```
+- run `chmod u+x dc` in your terminal, where your project located
+- enjoy using script 
