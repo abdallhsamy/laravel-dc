@@ -1,6 +1,7 @@
 #! /bin/bash
 
 #Author : Abdallah Samy. >> https://github.com/abdallhsamy
+# https://github.com/abdallhsamy/laravel-dc
 
 COMPOSE="./vendor/bin/sail"
 
