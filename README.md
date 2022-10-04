@@ -13,6 +13,9 @@ The most common commands you will need are:
 - `./dc t`: Run phpunit in the app container
 - `./dc yarn`: Run yarn
 - `./dc npm`: Run npm
+- `./dc pull`: install dependancies if you don't have vendor firectory
+
+
 For most of the above commands any arguments you enter after the command will be passed to the original command, for example running `./dc artisan migrate` would run `php artisan migrate`.
 
 ```
