@@ -40,6 +40,13 @@ if [ $# -gt 0 ]; then
     elif [ "$1" == "node" ]; then
         shift 1
         $COMPOSE node "$@"
+    elif [ "$1" == "pull" ]; then
+        docker run --rm \
+            -u "$(id -u):$(id -g)" \
+            -v $(pwd):/opt \
+            -w /opt \
+            laravelsail/php80-composer:latest \
+            composer install --ignore-platform-reqs
     else
         $COMPOSE "$@"
     fi
